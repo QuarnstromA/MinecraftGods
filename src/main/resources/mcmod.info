@@ -1,0 +1,16 @@
+[
+{
+  "modid": "minecraftgods",
+  "name": "Minecraft Gods",
+  "description": "What it say's on the tin.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["ExampleDude"],
+  "credits": "The Forge and FML guys, for making this example",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

@@ -1,0 +1,15 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "all": "minecraftgods:blocks/wooden_altar"
+    }
+  },
+  "variants": {
+    "normal": [{
+      //"model": "minecraftgods:block/wooden_altar",
+      "model": "cube_all",
+      "uvlock": true
+    }]
+  }
+}
