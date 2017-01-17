@@ -1,6 +1,6 @@
 package github.quarnstrom.minecraftgods;
 
-import github.quarnstrom.minecraftgods.player.capabilities.IPietyCapability;
+import github.quarnstrom.minecraftgods.player.capabilities.piety.interfaces.IPietyCapability;
 import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.common.capabilities.CapabilityInject;
 import net.minecraftforge.fml.common.Mod;

@@ -1,11 +1,11 @@
 package github.quarnstrom.minecraftgods.player;
-import github.quarnstrom.minecraftgods.player.capabilities.handler.CapabilityHandler;
-import net.minecraftforge.common.MinecraftForge;
+import github.quarnstrom.minecraftgods.player.capabilities.piety.impl.PlayerPietyCapability;
 
 public class CommonPlayerInit {
 
     public static void preInit(){
-        MinecraftForge.EVENT_BUS.register(new CapabilityHandler());
+
+        PlayerPietyCapability.register();
     }
 
     public static void init(){

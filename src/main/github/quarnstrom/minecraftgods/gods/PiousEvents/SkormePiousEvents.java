@@ -1,8 +1,8 @@
 package github.quarnstrom.minecraftgods.gods.PiousEvents;
 
 import github.quarnstrom.minecraftgods.gods.enums.GodsEnum;
-import github.quarnstrom.minecraftgods.player.capabilities.IPietyCapability;
-import github.quarnstrom.minecraftgods.player.capabilities.provider.PietyProvider;
+import github.quarnstrom.minecraftgods.player.capabilities.piety.interfaces.IPietyCapability;
+import github.quarnstrom.minecraftgods.player.capabilities.piety.provider.PietyProvider;
 import net.minecraft.entity.EnumCreatureType;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.text.TextComponentString;

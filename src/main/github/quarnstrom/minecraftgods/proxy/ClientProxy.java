@@ -1,8 +1,8 @@
 package github.quarnstrom.minecraftgods.proxy;
 
 import github.quarnstrom.minecraftgods.Reference;
-import github.quarnstrom.minecraftgods.block.ClientBlockInit;
-import github.quarnstrom.minecraftgods.item.init.ClientItemInit;
+import github.quarnstrom.minecraftgods.blocks.init.ClientBlockInit;
+import github.quarnstrom.minecraftgods.items.init.ClientItemInit;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.model.ModelLoader;

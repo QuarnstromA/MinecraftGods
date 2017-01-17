@@ -4,7 +4,7 @@ import github.quarnstrom.minecraftgods.gods.God;
 import github.quarnstrom.minecraftgods.gods.godImpls.Mata;
 import github.quarnstrom.minecraftgods.gods.godImpls.NoGod;
 import github.quarnstrom.minecraftgods.gods.godImpls.Skorme;
-import github.quarnstrom.minecraftgods.piety.Piety;
+import github.quarnstrom.minecraftgods.player.capabilities.piety.impl.PietyData;
 import net.minecraft.entity.player.EntityPlayer;
 
 public enum GodsEnum {
@@ -39,7 +39,7 @@ public enum GodsEnum {
         return displayName;
     }
 
-    public void answerPrayer(EntityPlayer player, Piety pietyLevel) {
+    public void answerPrayer(EntityPlayer player, PietyData pietyLevel) {
         godClass.answerPrayer(player, pietyLevel);
     }
 }
